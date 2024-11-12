@@ -1,0 +1,15 @@
+/**
+ * Model a shuttle on a circular route.
+ */
+public class Shuttle
+{
+    /**
+     * Constructor for objects of class Shuttle.
+     * @param id The shuttle's ID.
+     * @param pricePerStop The price per stop.
+     * @param route The route.
+     */
+    public Shuttle(String id, int pricePerStop, String[] route)
+    {
+    }
+}
