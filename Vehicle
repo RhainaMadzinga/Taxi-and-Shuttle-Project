@@ -1,0 +1,29 @@
+/**
+ * Model shared features of taxis and shuttles.
+ */
+public class Vehicle
+{
+    public Vehicle()
+    {
+    }
+
+
+    /**
+     * Return the daily takings for this vehicle.
+     * @return The takings.
+     */
+    public int getTakings()
+    {
+        throw new RuntimeException("getTakings must be overridden");
+    }
+
+    /**
+     * Return details of this vehicle.
+     * @return A string representation of this vehicle.
+     */
+    public String getDetails()
+    {
+        return "getDetails must be overridden";
+    }
+
+}
