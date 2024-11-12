@@ -1,0 +1,15 @@
+/**
+ * Model a Taxi.
+ */
+public class Taxi
+{
+    /**
+     * Constructor for objects of class Taxi.
+     * @param id The taxi's ID.
+     * @param driver The taxi's driver.
+     * @param pricePerJourney The price per journey.
+     */
+    public Taxi(String id, String driver, int pricePerJourney)
+    {
+    }
+}
